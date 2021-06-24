@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="87fdef4733294d299ab94ca1bf6b5368" Name="Diagram1">
+        <EntityTypeShape EntityType="ETicaretDbModel.Kategori" Width="1.5" PointX="0.75" PointY="4.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ETicaretDbModel.Kayit" Width="1.5" PointX="5.25" PointY="5.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="ETicaretDbModel.Musteri" Width="1.5" PointX="6" PointY="1.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="ETicaretDbModel.Sepet" Width="1.5" PointX="5.25" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ETicaretDbModel.Sepet2" Width="1.5" PointX="8.25" PointY="6.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="ETicaretDbModel.Siparis" Width="1.5" PointX="3" PointY="10.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="ETicaretDbModel.Urun" Width="1.5" PointX="3" PointY="6.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ETicaretDbModel.Yonetici" Width="1.75" PointX="0.75" PointY="1.25" IsExpanded="true" />
+        <AssociationConnector Association="ETicaretDbModel.FK_Kayit_KatKay" ManuallyRouted="false" />
+        <AssociationConnector Association="ETicaretDbModel.FK_Urun_ToUrunKat" ManuallyRouted="false" />
+        <AssociationConnector Association="ETicaretDbModel.FK_Kayit_ToTable" ManuallyRouted="false" />
+        <AssociationConnector Association="ETicaretDbModel.FK_Sepet_Musteri" ManuallyRouted="false" />
+        <AssociationConnector Association="ETicaretDbModel.FK_Siparis_SipMus" ManuallyRouted="false" />
+        <AssociationConnector Association="ETicaretDbModel.FK_Sepet_SepetSiparis" ManuallyRouted="false" />
+        <AssociationConnector Association="ETicaretDbModel.FK_Table_UrunSepet" ManuallyRouted="false" />
+        <AssociationConnector Association="ETicaretDbModel.FK_Table_UrunSepet2" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
